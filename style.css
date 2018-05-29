@@ -9,14 +9,14 @@ body {
     font-family: 'Kanit', sans-serif;
     background: #333;
     color: #fff;
-    font-size: 16px;
+    font-size: 100%;
     line-height: 1.5;
     text-align: center;
 }
 
 h1, h2, h3 {
     font-family: 'Playfair Display SC', sans-serif;
-    letter-spacing: .2em;;
+    letter-spacing: .2em;
     margin: 0;
     padding: 1em 0;
 }
@@ -54,8 +54,6 @@ img {
 
 /* Header Video */
  .bg-video {
-    background: url("img/landing.jpeg") fixed;
-    background-size: cover;
     position: absolute;
     top: 0;
     left: 0;
